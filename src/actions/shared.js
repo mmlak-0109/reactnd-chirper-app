@@ -6,8 +6,6 @@ import { showLoading, hideLoading } from 'react-redux-loading'
 
 const AUTHED_ID = 'tylermcginnis'
 
-
-
 export function handleInitialData () {
     return (dispatch) => {
         dispatch(showLoading())
